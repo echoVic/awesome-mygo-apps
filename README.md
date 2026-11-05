@@ -2,7 +2,7 @@
 
 > 基于 [egoist/mygo](https://github.com/egoist/mygo)（纯 Go 原生桌面 UI 框架）的**可运行应用与组件库**精选清单 —— 每条都经过 go.mod 依赖实证，可追溯、可复现。
 
-![stars](https://img.shields.io/badge/stars-222%20recommended-F0544E)
+![stars](https://img.shields.io/badge/stars-223%20recommended-F0544E)
 ![license](https://img.shields.io/badge/license-见各条目-lightgrey)
 ![collected](https://img.shields.io/badge/data%20collected-2026--11--05-green)
 ![PR Welcome](https://img.shields.io/badge/PR-welcome-brightgreen)
@@ -11,7 +11,7 @@
 
 ## 生态背景
 
-[mygo](https://github.com/egoist/mygo) 是 2026 年 9 月发布的纯 Go 桌面 UI 框架：无 Electron、无 cgo，GPU 绘制原生 UI，同时支持系统 WebView 承载 Web 前端。截至 2026-11-05，已实测收录 **222 个**基于 mygo 的完整应用、UI 组件库与工具，全部经 go.mod 依赖实证（少数 README 明确声明兜底，证据见 [候选项目盘点表](./候选项目盘点表.md)）。
+[mygo](https://github.com/egoist/mygo) 是 2026 年 9 月发布的纯 Go 桌面 UI 框架：无 Electron、无 cgo，GPU 绘制原生 UI，同时支持系统 WebView 承载 Web 前端。截至 2026-11-05，已实测收录 **223 个**基于 mygo 的完整应用、UI 组件库与工具，全部经 go.mod 依赖实证（少数 README 明确声明兜底，证据见 [候选项目盘点表](./候选项目盘点表.md)）。
 
 ## 目录
 
@@ -135,6 +135,7 @@ mygo 作者 [egoist](https://github.com/egoist) 本人用自家框架写的应�
 - [version-fox/vfox-plus](https://github.com/version-fox/vfox-plus) — vfox 版本管理 CLI 的实验性 Web UI 与跨平台桌面应用。⭐ 1 · Apache-2.0 · 无 release
 - [xinde/deepseek-harness-mygo](https://github.com/xinde/deepseek-harness-mygo) — 本地 DeepSeek Harness 的轻量 MyGo 桌面启动器。⭐ 1 · MIT · Release mygo-v0.1.1-798c33f126e9（2026-10-19）
 - [xleotranx/wada-terminal](https://github.com/xleotranx/wada-terminal) — 面向 coding agent 的原生终端，基于 Go、MyGo 与 wada-kit。⭐ 1 · MIT · 无 release
+- [echoVic/curlgo](https://github.com/echoVic/curlgo) — 轻量离线 API 客户端：原生 UI，支持 HTTP、SSE、WebSocket 与 curl 导入导出（维护者项目）。⭐ 0 · MIT · Release v0.1.1（2026-11-05）
 
 ## 网络 · 代理
 
@@ -315,7 +316,7 @@ mygo 作者 [egoist](https://github.com/egoist) 本人用自家框架写的应�
 欢迎 PR 补充 mygo 生态项目！收录门槛与审核流程见 [收录标准草案.md](./收录标准草案.md)（两步核验：依赖与门槛 → 内容与格式）。要点：
 
 1. **go.mod 证据**：根目录（或 monorepo 内实际模块路径）`go.mod` 含 `require github.com/egoist/mygo ...`，PR 中附 raw 链接。
-2. **star ≥ 1**。
+2. **star ≥ 1**（维护者自有项目可例外，条目中会注明「维护者项目」）。
 3. 非空壳、用途一句话、license、最新 Release 或可运行说明。
 
 PR 条目格式：`- [owner/repo](url) — 一句话描述。⭐ N · License · Release/可运行说明`
@@ -324,5 +325,5 @@ PR 条目格式：`- [owner/repo](url) — 一句话描述。⭐ N · License ·
 
 ## 更新日志
 
-- **2026-11-05**：全量复核并扩充至 222 条（新增收录 178 条；另有 11 个此前因 0★ 未收录的项目达星补入；2 个仓库改名已按新名收录：shelf→rakko、herdr-ui→hergo），star / Release 全部按当日实测刷新。
+- **2026-11-05**：全量复核并扩充至 223 条（新增收录 179 条，含维护者项目 curlgo；另有 11 个此前因 0★ 未收录的项目达星补入；2 个仓库改名已按新名收录：shelf→rakko、herdr-ui→hergo），star / Release 全部按当日实测刷新。
 - **2026-10-26**：初版 33 条。
