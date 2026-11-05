@@ -2,7 +2,7 @@
 
 > 基于 [egoist/mygo](https://github.com/egoist/mygo)（纯 Go 原生桌面 UI 框架）的**可运行应用与组件库**精选清单 —— 每条都经过 go.mod 依赖实证，可追溯、可复现。
 
-![stars](https://img.shields.io/badge/stars-223%20recommended-F0544E)
+![stars](https://img.shields.io/badge/stars-222%20recommended-F0544E)
 ![license](https://img.shields.io/badge/license-见各条目-lightgrey)
 ![collected](https://img.shields.io/badge/data%20collected-2026--11--05-green)
 ![PR Welcome](https://img.shields.io/badge/PR-welcome-brightgreen)
@@ -11,7 +11,7 @@
 
 ## 生态背景
 
-[mygo](https://github.com/egoist/mygo) 是 2026 年 9 月发布的纯 Go 桌面 UI 框架：无 Electron、无 cgo，GPU 绘制原生 UI，同时支持系统 WebView 承载 Web 前端。截至 2026-11-05，已实测收录 **223 个**基于 mygo 的完整应用、UI 组件库与工具，全部经 go.mod 依赖实证（少数 README 明确声明兜底，证据见 [候选项目盘点表](./候选项目盘点表.md)）。
+[mygo](https://github.com/egoist/mygo) 是 2026 年 9 月发布的纯 Go 桌面 UI 框架：无 Electron、无 cgo，GPU 绘制原生 UI，同时支持系统 WebView 承载 Web 前端。截至 2026-11-05，已实测收录 **222 个**基于 mygo 的完整应用、UI 组件库与工具，全部经 go.mod 依赖实证（少数 README 明确声明兜底，证据见 [候选项目盘点表](./候选项目盘点表.md)）。
 
 ## 目录
 
@@ -50,7 +50,7 @@ mygo 作者 [egoist](https://github.com/egoist) 本人用自家框架写的应�
 - [nexmoe/DayBee](https://github.com/nexmoe/DayBee) — 桌面麦克风录音机：本地实时转写、自动分段与语音活动检测。⭐ 428 · 未声明 · Release v1.1.0（2026-10-18）
 - [hehehai/AudioSmith](https://github.com/hehehai/AudioSmith) — Mac 上的语音、配音、有声书、转录与音频工作室。⭐ 217 · AGPL-3.0 · Release v0.5.0-beta.2（2026-11-03）
 - [Bronya0/ally-agent](https://github.com/Bronya0/ally-agent) — 面向本地项目的桌面 AI 编程助手，理解代码、编辑文件。⭐ 137 · GPL-3.0 · Release v2.0.0（2026-11-01）
-- [AstraFoundry/Arion](https://github.com/AstraFoundry/Arion) — 本地优先的语音输入：端侧识别、离线听写，macOS/Windows。⭐ 108 · AGPL-3.0 · Release v0.1.1（2026-11-03）
+- [AstraFoundry/Arion](https://github.com/AstraFoundry/Arion) — 本地优先的语音输入：端侧识别、离线听写，macOS/Windows。⭐ 112 · AGPL-3.0 · Release v0.1.1（2026-11-03）
 - [godwit-email/godwit](https://github.com/godwit-email/godwit) — 开源、可改造的 AI 邮件客户端。⭐ 83 · Apache-2.0 · Release v1.27.0（2026-11-05）
 - [enowdev/enowx](https://github.com/enowdev/enowx) — 一个窗口运行并管理 Claude Code、Codex、OpenCode 等 coding agent。⭐ 38 · MIT · Release v0.7.0（2026-11-05）
 - [ACAne0320/Tomoru](https://github.com/ACAne0320/Tomoru) — 为电脑上播放的视频、直播、游戏、会议叠加实时双语字幕。⭐ 27 · GPL-3.0 · Release v0.1.3（2026-11-03）
@@ -135,7 +135,6 @@ mygo 作者 [egoist](https://github.com/egoist) 本人用自家框架写的应�
 - [version-fox/vfox-plus](https://github.com/version-fox/vfox-plus) — vfox 版本管理 CLI 的实验性 Web UI 与跨平台桌面应用。⭐ 1 · Apache-2.0 · 无 release
 - [xinde/deepseek-harness-mygo](https://github.com/xinde/deepseek-harness-mygo) — 本地 DeepSeek Harness 的轻量 MyGo 桌面启动器。⭐ 1 · MIT · Release mygo-v0.1.1-798c33f126e9（2026-10-19）
 - [xleotranx/wada-terminal](https://github.com/xleotranx/wada-terminal) — 面向 coding agent 的原生终端，基于 Go、MyGo 与 wada-kit。⭐ 1 · MIT · 无 release
-- [echoVic/curlgo](https://github.com/echoVic/curlgo) — 轻量离线 API 客户端：原生 UI，支持 HTTP、SSE、WebSocket 与 curl 导入导出（维护者项目）。⭐ 0 · MIT · Release v0.1.1（2026-11-05）
 
 ## 网络 · 代理
 
@@ -165,14 +164,14 @@ mygo 作者 [egoist](https://github.com/egoist) 本人用自家框架写的应�
 
 - [bitxeno/atvloadly](https://github.com/bitxeno/atvloadly) — ATV 视频下载器 + mygo 桌面壳。⭐ 1640 · AGPL-3.0 · Release v0.8.2（2026-10-31）
 - [elianiva/meiro](https://github.com/elianiva/meiro) — 轻量 YouTube Music 客户端。⭐ 296 · GPL-3.0 · Release desktop-v0.6.1（2026-11-05）
-- [fzn0x/mixmusic](https://github.com/fzn0x/mixmusic) — 轻量 YouTube Music/Spotify 客户端，内存约 64MB。⭐ 255 · GPL-3.0 · Release v0.5.8（2026-11-02）
+- [fzn0x/mixmusic](https://github.com/fzn0x/mixmusic) — 轻量 YouTube Music/Spotify 客户端，内存约 64MB。⭐ 259 · GPL-3.0 · Release v0.5.8（2026-11-02）
 - [vst93/bili-fm](https://github.com/vst93/bili-fm) — 把 B 站节目当音频听的音乐/学习播放器，Go + mygo 原生。⭐ 78 · Apache-2.0 · Release mygo-v3.1.16（2026-11-02）
 - [missuo/motrix-mygo](https://github.com/missuo/motrix-mygo) — Motrix 的 MyGo 原生 UI 版，驱动其 aria2 引擎，无 Electron/webview。⭐ 55 · 未声明 · Release v0.0.10（2026-10-15）
 - [kamiertop/videodown](https://github.com/kamiertop/videodown) — 哔哩哔哩、抖音视频下载器。⭐ 52 · GPL-3.0 · Release v1.0.0-alpha.3（2026-11-03）
 - [margbug01/MySpotify](https://github.com/margbug01/MySpotify) — Windows 上的非官方 Spotify 播放器，免费账号也能整首播放。⭐ 28 · AGPL-3.0 · Release v0.4.9（2026-11-03）
 - [ca-x/lark](https://github.com/ca-x/lark) — 精致的 Web 音乐播放器，MyGo 原生桌面壳。⭐ 16 · AGPL-3.0 · Release v0.18.8（2026-11-05）
 - [he-music/HE-Music](https://github.com/he-music/HE-Music) — 基于 SPlayer 的简约音乐播放器，MyGo 桌面形态。⭐ 14 · AGPL-3.0 · Release v2.0.0（2026-11-04）
-- [yxxbc/haruhikage-app](https://github.com/yxxbc/haruhikage-app) — 春日影：Go 与 MyGo 写的跨平台音乐播放器，原生 UI 无 WebView。⭐ 8 · AGPL-3.0 · Release v0.1.23（2026-11-04）
+- [yxxbc/haruhikage-app](https://github.com/yxxbc/haruhikage-app) — 春日影：Go 与 MyGo 写的跨平台音乐播放器，原生 UI 无 WebView。⭐ 9 · AGPL-3.0 · Release v0.1.23（2026-11-04）
 - [Team-Quaver/quaver-astra](https://github.com/Team-Quaver/quaver-astra) — 轻量跨平台 Quaver 音乐客户端，由 MyGo 构建。⭐ 7 · AGPL-3.0 · Release snapshot-93cfb0d30f27（2026-11-05）
 - [AMDL-Web/apple-music-downloader](https://github.com/AMDL-Web/apple-music-downloader) — Apple Music 下载后端：解析、下载、解密、重封装无损 ALAC。⭐ 6 · AGPL-3.0 · Release v2.0.0-rc.9（2026-11-03）
 - [fazi-gondal/video-downloader-mygo](https://github.com/fazi-gondal/video-downloader-mygo) — yt-dlp/FFmpeg 桌面视频下载器。⭐ 4 · MIT · Release v3.2.0（2026-10-31）
@@ -202,11 +201,11 @@ mygo 作者 [egoist](https://github.com/egoist) 本人用自家框架写的应�
 - [oneo-me/neohm](https://github.com/oneo-me/neohm) — Home Assistant 菜单栏/托盘控制器（配套 onevra）。⭐ 9 · 未声明 · Release v0.2026.3（2026-10-20）
 - [eziq1/golauncher](https://github.com/eziq1/golauncher) — Raycast 风格的 Windows/macOS 启动器，Go + MyGo 原生 UI。⭐ 6 · MIT · Release v0.13.1（2026-10-23）
 - [iwangjie/xiangzhuan](https://github.com/iwangjie/xiangzhuan) — 菜单栏休息提醒：工作到点全屏燃香，一炷香尽回到案前。⭐ 4 · MIT · Release v0.9.0（2026-10-19）
+- [echoVic/clipnest](https://github.com/echoVic/clipnest) — 现代轻量 Mac 剪贴板历史面板（快捷键+预览）。⭐ 2 · MIT · Release v0.1.9（2026-11-01）
 - [mintonight/pomodoro](https://github.com/mintonight/pomodoro) — 极简桌面番茄钟：专注计时、统计热力图、托盘与 SQLite 本地存储。⭐ 2 · 未声明 · Release v0.3.1（2026-10-06）
 - [qzz0518/Moniflip](https://github.com/qzz0518/Moniflip) — 一键把显示器切到另一台电脑（DDC/CI），菜单栏/托盘工具。⭐ 2 · MIT · Release v0.1.2（2026-10-13）
 - [soidaken/ClipRecorder](https://github.com/soidaken/ClipRecorder) — Windows 原生截图/录屏/框选翻译工具。⭐ 2 · MIT · Release v1.4.4（2026-11-02）
 - [0froq/snip](https://github.com/0froq/snip) — 基于 MyGo 原生 UI 的 macOS 剪贴板管理器原型。⭐ 1 · MIT · Release v0.1.0（2026-10-21）
-- [echoVic/clipnest](https://github.com/echoVic/clipnest) — 现代轻量 Mac 剪贴板历史面板（快捷键+预览）。⭐ 1 · MIT · Release v0.1.9（2026-11-01）
 - [FaintGhost/mac2mqtt](https://github.com/FaintGhost/mac2mqtt) — macOS 菜单栏 → Home Assistant over MQTT。⭐ 1 · MIT · Release v0.4.7（2026-11-04）
 - [margbug01/mami](https://github.com/margbug01/mami) — 语音输入 + 划词翻译：右 Alt 说话，文字落到光标处。⭐ 1 · MIT · Release v2.10.6（2026-11-04）
 - [michaelmjhhhh/Chaos](https://github.com/michaelmjhhhh/Chaos) — macOS 截图处理小工具。⭐ 1 · MIT · Release v1.1.0（2026-06-30）
@@ -269,9 +268,9 @@ mygo 作者 [egoist](https://github.com/egoist) 本人用自家框架写的应�
 - [ELY-Open-Source/8bitMyGoUI](https://github.com/ELY-Open-Source/8bitMyGoUI) — 16-bit 像素风组件集（含 wasm 浏览器演示）。⭐ 11 · MIT · 无 release
 - [firede/mygo-platinum](https://github.com/firede/mygo-platinum) — 90 年代 Platinum 风格控件 + gallery。⭐ 3 · MIT · Release v0.2.2（2026-10-28）
 - [josexy/nuxt-ui-go](https://github.com/josexy/nuxt-ui-go) — 受 Nuxt UI v4 启发的原生 Go 组件库（主题、表单、图表）。⭐ 2 · MIT · 无 release
+- [yldm-tech/mygo-breeze-ui](https://github.com/yldm-tech/mygo-breeze-ui) — Tailwind 风格设计系统：原生组件 + CLI + MCP。⭐ 2 · MIT · 无 release
 - [VaalaCat/mygo-kit](https://github.com/VaalaCat/mygo-kit) — Zed 风格原生组件库：连续面板、紧凑工具栏、One Light/Dark 主题。⭐ 1 · MIT · 无 release
 - [xleotranx/wada-kit](https://github.com/xleotranx/wada-kit) — 可复用的 Go 插件内核 + 原生 MyGo 桌面工具包。⭐ 1 · MIT · Release v0.2.0（2026-11-04）
-- [yldm-tech/mygo-breeze-ui](https://github.com/yldm-tech/mygo-breeze-ui) — Tailwind 风格设计系统：原生组件 + CLI + MCP。⭐ 1 · MIT · 无 release
 
 ## 工具 · 其他
 
@@ -316,14 +315,14 @@ mygo 作者 [egoist](https://github.com/egoist) 本人用自家框架写的应�
 欢迎 PR 补充 mygo 生态项目！收录门槛与审核流程见 [收录标准草案.md](./收录标准草案.md)（两步核验：依赖与门槛 → 内容与格式）。要点：
 
 1. **go.mod 证据**：根目录（或 monorepo 内实际模块路径）`go.mod` 含 `require github.com/egoist/mygo ...`，PR 中附 raw 链接。
-2. **star ≥ 1**（维护者自有项目可例外，条目中会注明「维护者项目」）。
+2. **star ≥ 1**。
 3. 非空壳、用途一句话、license、最新 Release 或可运行说明。
 
 PR 条目格式：`- [owner/repo](url) — 一句话描述。⭐ N · License · Release/可运行说明`
 
-> 数据约定：star / Release 为 2026-11-05 当日实测（前一轮为 2026-10-26），不引用第三方榜单数值。全量候选、依赖证据与排除项见 [候选项目盘点表.md](./候选项目盘点表.md)。
+> 数据约定：star / Release 为 2026-11-05 当日实测（当日晚间复核刷新过一次；前一轮为 2026-10-26），不引用第三方榜单数值。全量候选、依赖证据与排除项见 [候选项目盘点表.md](./候选项目盘点表.md)。
 
 ## 更新日志
 
-- **2026-11-05**：全量复核并扩充至 223 条（新增收录 179 条，含维护者项目 curlgo；另有 11 个此前因 0★ 未收录的项目达星补入；2 个仓库改名已按新名收录：shelf→rakko、herdr-ui→hergo），star / Release 全部按当日实测刷新。
+- **2026-11-05**：全量复核并扩充至 222 条（新增收录 178 条；另有 11 个此前因 0★ 未收录的项目达星补入；2 个仓库改名已按新名收录：shelf→rakko、herdr-ui→hergo），star / Release 全部按当日实测刷新。
 - **2026-10-26**：初版 33 条。
