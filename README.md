@@ -116,7 +116,7 @@ mygo 作者 [egoist](https://github.com/egoist) 本人用自家框架写的应�
 - [contursofran/contr](https://github.com/contursofran/contr) — 极简原生 herdr 客户端，内置 herdr-agents 看板。⭐ 2 · Apache-2.0 · Release v0.1.3（2026-11-05）
 - [iwangjie/Nemorous](https://github.com/iwangjie/Nemorous) — 多仓库 Git 协同与代码查阅的键盘优先桌面工具。⭐ 2 · MIT · Release v0.10.17（2026-11-05）
 - [laojianzi/aster](https://github.com/laojianzi/aster) — Go + MyGo Native UI 写的 Kubernetes 工作台。⭐ 2 · Apache-2.0 · 无 release
-- [Maidang1/hergo](https://github.com/Maidang1/hergo) — 原生 Herdr 桌面客户端：工作区、Git worktree、agent、分屏终端（原 herdr-ui）。⭐ 2 · MIT · Release v0.0.21（2026-11-05）
+- [Maidang1/hergo](https://github.com/Maidang1/hergo) — Go + mygo 原生 Herdr 桌面客户端：工作区、Git 工作树、AI 编程助手、分屏终端与代码 diff，无 WebView（Windows 为实验性支持，原 herdr-ui）。⭐ 2 · MIT · Release v0.0.21（2026-11-05） · [官网](https://maidang1.github.io/hergo/)
 - [Maidang1/knack](https://github.com/Maidang1/knack) — 跨平台 AI Agent 技能管理器，统一浏览、共享、修复本地 skills。⭐ 2 · MIT · Release v0.1.0（2026-11-05）
 - [oysterhyd/AgentMeter](https://github.com/oysterhyd/AgentMeter) — Windows 桌面端监控 Codex 配额、token 用量、成本与运行指标。⭐ 2 · 未声明 · Release v3.0.4（2026-10-22）
 - [ychuo/tavu](https://github.com/ychuo/tavu) — 把终端、文件和改动放在手边的 macOS 原生工作区。⭐ 2 · 未声明 · Release v0.1.3（2026-10-19）
